@@ -1,0 +1,22 @@
+{
+  "name": "conuti/apijson-php",
+  "description": "API JSON PHP classes",
+  "authors": [
+    {
+      "name": "Kevin Meier",
+      "email": "kevin.meier@conuti.de"
+    }
+  ],
+  "type": "library",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Conuti\\ApiJson\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
